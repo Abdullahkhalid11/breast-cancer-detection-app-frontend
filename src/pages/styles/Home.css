@@ -1,0 +1,28 @@
+.hero {
+  background: linear-gradient(to right, #f5f7fa, #e9eff5); /* Subtle gradient */
+  padding: 100px 0;
+}
+
+.display-4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  font-style: italic;
+  color: #6c63ff;
+  border-color: #6c63ff; /* Purple color for emphasis */
+}
+
+.lead {
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+.btn-lg {
+  padding: 15px 30px;
+  font-size: 1.25rem;
+}
+.enroll-button:hover {
+  background-color: #373484;
+}
