@@ -4,9 +4,9 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Mammography from "./pages/Mammography";
-import UltraSound from "./pages/UltraSound";
 import Histology from "./pages/Histology";
 import Contact from "./pages/ContactUs";
+import Sonography from "./pages/Sonography";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
               element={<Histology />}
             />{" "}
             <Route path="/services/mammography" element={<Mammography />} />{" "}
-            <Route path="/services/ultrasound" element={<UltraSound />} />{" "}
+            <Route path="/services/sonography" element={<Sonography />} />{" "}
           </Routes>
         </main>
         <Footer />

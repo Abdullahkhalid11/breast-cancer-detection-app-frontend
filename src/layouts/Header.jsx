@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import histImage from "../assets/histopathology.png";
+import Logo from "../assets/logo.png";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import "./Header.css";
 // Add custom styles for the header
 
 const Header = () => {
@@ -8,9 +11,10 @@ const Header = () => {
     <header className="header">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          {/* Logo */}
           <Link to="/" className="navbar-brand">
-            <img src="histImage" alt="MammoGuard" className="logo" />
+            <div class="logo-container">
+              <img src={Logo} alt="MammoGuard" className="logo" />
+            </div>
           </Link>
           <button
             className="navbar-toggler"

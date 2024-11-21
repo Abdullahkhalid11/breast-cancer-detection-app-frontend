@@ -5,7 +5,7 @@ import { formatText } from "./utils";
 import "./styles/utils.css";
 // Custom styling for the details page
 
-const Mammography = () => {
+const Sonography = () => {
   const [file, setFile] = useState(null);
   const [prediction, setPrediction] = useState(null);
   const [error, setError] = useState(null);
@@ -33,7 +33,7 @@ const Mammography = () => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/mammography/predict_mammography",
+        "http://127.0.0.1:5000/sonography/predict_sonography",
         formData,
         {
           headers: {
@@ -57,8 +57,8 @@ const Mammography = () => {
   return (
     <section className="course-details">
       <div className="container">
-        <h1>MammoGuard - Upload Mammograph</h1>
-        <p>Upload your Mammograph to get a prediction.</p>
+        <h1>MammoGuard - Upload Sonograph</h1>
+        <p>Upload your Ultrasound Image to get a prediction.</p>
 
         <form onSubmit={handleSubmit}>
           <input
@@ -116,4 +116,4 @@ const Mammography = () => {
   );
 };
 
-export default Mammography;
+export default Sonography;

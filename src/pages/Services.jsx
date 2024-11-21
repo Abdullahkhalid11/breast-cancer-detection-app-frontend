@@ -5,7 +5,7 @@ import histImage from "../assets/histopathology1.png";
 import mammogram from "../assets/mammogram.jpeg";
 import UltraSoundimg from "../assets/ultrasound.jpeg"; // Custom styling for the cards
 
-const Courses = () => {
+const Services = () => {
   return (
     <section className="courses-section">
       <div className="container text-center">
@@ -72,7 +72,7 @@ const Courses = () => {
                   Predict Breast Cancer using Sonograph (Ultrasound images).
                 </p>
                 <Link
-                  to="/services/ultrasound"
+                  to="/services/sonography"
                   className="btn btn-primary"
                   style={{ backgroundColor: "#6c63ff", borderColor: "#6c63ff" }}
                 >
@@ -87,4 +87,4 @@ const Courses = () => {
   );
 };
 
-export default Courses;
+export default Services;

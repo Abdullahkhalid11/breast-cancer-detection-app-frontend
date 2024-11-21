@@ -58,7 +58,6 @@ footer {
 .navbar-nav .nav-item {
   margin-left: 20px;
 }
-
 @media (max-width: 768px) {
   /* Mobile-specific styles */
   .navbar-nav {
