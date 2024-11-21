@@ -1,6 +1,4 @@
 absl-py==2.1.0
-anaconda-client==1.11.3
-anaconda-navigator==2.4.2
 appdirs==1.4.4
 astunparse==1.6.3
 atomicwrites==1.4.0
