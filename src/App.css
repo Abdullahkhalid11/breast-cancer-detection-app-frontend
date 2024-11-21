@@ -58,6 +58,10 @@ footer {
 .navbar-nav .nav-item {
   margin-left: 20px;
 }
+.contact {
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 768px) {
   /* Mobile-specific styles */
   .navbar-nav {

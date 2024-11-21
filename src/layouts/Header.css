@@ -1,13 +1,3 @@
-.logo {
-  max-width: 100%; /* Adjust to fit smaller containers */
-  width: auto; /* Prevent distortion */
-  height: auto; /* Maintain aspect ratio */
-  display: block; /* Avoid inline element spacing issues */
-}
-
-.logo-container {
-  width: auto; /* Allow the container to adjust to content */
-  max-width: 100%;
-  height: auto;
-  max-height: 100%;
+img.logo {
+  transform: scale(2); /* Adjust the scale factor as needed */
 }
