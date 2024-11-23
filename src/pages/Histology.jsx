@@ -32,7 +32,7 @@ const Histology = () => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/histopathology/predict_histopathology",
+        "https://wahab07-breast-cancer-app-backend.hf.space/histopathology/predict_histopathology",
         formData,
         {
           headers: {

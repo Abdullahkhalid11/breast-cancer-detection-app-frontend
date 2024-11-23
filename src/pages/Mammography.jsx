@@ -33,7 +33,7 @@ const Mammography = () => {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/mammography/predict_mammography",
+        "https://wahab07-breast-cancer-app-backend.hf.space/mammography/predict_mammography",
         formData,
         {
           headers: {

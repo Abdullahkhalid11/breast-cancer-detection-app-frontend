@@ -13,7 +13,7 @@ const ContactUs = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/contact",
+        "https://wahab07-breast-cancer-app-backend.hf.space/contact",
         formData
       );
       setResponseMessage(response.data.message);
